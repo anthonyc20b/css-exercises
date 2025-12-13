@@ -1,1 +1,22 @@
 /* Add CSS Styling */
+
+.odd-number {
+    background-color: lightpink;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#first-id {
+    color: blue;
+    font-size: 36px;
+}
+
+/* Below CSS created and adjusted to use multiple classes for a unique stlyed element */
+.odd-number.unique{
+    font-size: 24px;
+}
+
+#second-id {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: 700;
+}
